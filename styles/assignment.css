@@ -169,5 +169,29 @@ nav{
     height: 47px;
 
 }
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    gap: 30px;
+}
+.video{
+    width: 1140px;
+    height: 614px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-inside{
+    
+    border-radius: 16px;
+    width: 1076px;
+    height: 550px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+}
 
 
