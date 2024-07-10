@@ -295,6 +295,89 @@ nav{
     background: rgb(255, 255, 255);
 
 }
+.last-section{ 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+} 
+.last-section-content{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) , url(/assets/handshake.jpg);
+    width: 1080px; 
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    /* padding-top: 150px; */
+    gap: 30px;
+    
 
+}
+.last-section-heading{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.last-section-description{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+
+}
+.last-section-text{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    gap: 10px;
+}
+.text-box{
+    width: 548px;
+    height: 57px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+    
+
+}
+.last-btn{
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.foot{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 10px;
+    
+}
+.last-heading{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    
+}
 
 
