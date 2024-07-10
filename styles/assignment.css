@@ -36,7 +36,7 @@ nav{
     
 }
 .banner{
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url("/assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 652px;
@@ -304,7 +304,7 @@ nav{
     gap: 30px;
 } 
 .last-section-content{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) , url(/assets/handshake.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) , url("/assets/handshake.jpg");
     width: 1080px; 
     height: 300px;
     background-size: cover;
