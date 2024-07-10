@@ -267,6 +267,34 @@ nav{
     font-size: 16px;
     font-weight: 700;
 }
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+.fourth-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.fourth-section-layer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px; 
+    padding: 20px;
+    width: 1140px;
+    height: 219px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
 
 
 
