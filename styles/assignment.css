@@ -1,3 +1,4 @@
+
 .azeret-mono{
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -5,6 +6,7 @@
     font-variation-settings:
     "wdth" 100;
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -92,6 +94,7 @@ nav{
 }
 
 .first-section{
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,7 +177,7 @@ nav{
     flex-direction: column;
     align-items: center;
     padding: 100px;
-    gap: 30px;
+    gap: 60px;
 }
 .video{
     width: 1140px;
@@ -193,5 +196,77 @@ nav{
     height: 550px;
     border: 1px solid rgba(13, 19, 33, 0.2);
 }
+.third-section-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 1140px;
+}
+.third-section{
+    /* width: 1140px; */
+    /* height: 460px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px;
+}
+.third-section-layer1{
+    width: 364px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.third-section-layer2{
+    width: 364px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+
+}
+.third-section-layer3{
+    width: 364px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+
+}
+.third-section-layer-heading{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+   
+    
+}
+.third-section-layer-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+
+}
+.third-section-btn{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+
 
 
